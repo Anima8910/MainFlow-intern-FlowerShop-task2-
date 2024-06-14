@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anima Flower Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Anima Flower Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Flowers</a>
+                    <div class="dropdown-content">
+                        <a href="#" onclick="showFlower('Rose')">Rose</a>
+                        <a href="#" onclick="showFlower('Tulip')">Tulip</a>
+                        <a href="#" onclick="showFlower('Lily')">Lily</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content">
+        <h2>Welcome to Anima Flower Shop</h2>
+        <p>Your one-stop shop for beautiful and fresh flowers.</p>
+        <p>Quality flowers, delivered fresh to your doorstep.</p>
+        <p>Brighten someone's day with our stunning floral arrangements.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Anima Flower Shop</p>
+    </footer>
+</body>
+</html>
